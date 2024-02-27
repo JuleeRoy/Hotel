@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:wght@300&family=Poppins&display=swap');
+
+
+  
+    :root {
+        --orange-background: #B35202;
+        --light-orange-background: #EA802B;
+        --light-color-background: #FAEBDB;
+        --text-Color:#ffffff;
+    }
+
+* {
+  margin:0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+
+}
+
+.h3 ,.h5{
+    color: var(--orange-background);
+}
+.h4{
+    color: var(--text-Color);
+}
+
+.booking-link{
+    background: var(--light-orange-background);
+    color:var(--text-Color);
+    padding: 5px;
+    transition: all 0.4;
+   
+}
+
+.booking-link:hover ,.explore-plans{
+    background: transparent;
+    color:var(--light-orange-background);
+    border: 2px solid;
+}
+ .facilities .card{
+    background-color: var(--light-color-background);
+ }
+
+.stay-Updated input , #home input #home textarea #home select{
+    background-color: var(--light-color-background);
+    border: 1px solid var(--light-orange-background);
+ }
+/* Styling for when the input is active (clicked) */
+.stay-Updated input:active , .stay-Updated input:focus,
+#home input:active , #home input:focus,
+#home textarea:active ,#home textarea:focus,
+#home select:active ,#home select:focus {
+    border: 1px solid #B35202; /* Change border color */
+    box-shadow: none;
+    outline: none;
+    /* Add any other styles you want for when the input is active */
+}
+#home select>option {
+    background-color: var(--light-orange-background);
+    color: white;
+
+}
+
+
+#why-choose-us .card {
+    opacity: 0.3;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-toggler{
+    border:1px solid var(--light-orange-background);
+    
+
+}
+.navbar-toggler[type="button"]:focus,.navbar-toggler[type="button"]:active{
+    outline: none;
+    border: 2px solid var(--light-orange-background);
+    box-shadow: none;
+}
+
+
+#hamburger{
+    fill: var(--light-orange-background);
+}
+
+ul > li{
+    transition: all 0.3s;
+}
+
+ul> li:hover{
+    border-bottom: 1px solid var(--orange-background);
+}
+
+/* ------------------------Start Menu Bar ---------------------- */
+
